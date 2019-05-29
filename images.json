@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "alt": "Funny Boy",
+        "src": "https://cgfrog.com/wp-content/uploads/2014/04/3d-cartoon-funny-boy.png"
+    },
+    {
+        "id": 2,
+        "alt": "Penguin",
+        "src": "https://cdn.pixabay.com/photo/2013/07/13/11/44/penguin-158551__480.png"
+        
+    },
+    {
+        "id": 3,
+        "alt": "Businessman",
+        "src": "https://cdn.pixabay.com/photo/2015/01/22/15/12/businessman-607831__480.png"
+        
+    },
+    {
+        "id": 4,
+        "alt": "Eggplant",
+        "src": "https://cdn.pixabay.com/photo/2017/11/06/18/30/eggplant-2924511__480.png"
+        
+    },
+    {
+        "id": 5,
+        "alt": "Egg",
+        "src": "https://cdn.pixabay.com/photo/2017/03/30/06/29/egg-2187345__480.png"
+        
+    },
+    {
+        "id": 6,
+        "alt": "Giraffe",
+        "src": "https://cdn.pixabay.com/photo/2014/04/03/00/35/giraffe-308771__480.png"
+       
+    },
+    {
+        "id": 7,
+        "alt": "Zebra",
+        "src":  "https://cdn.pixabay.com/photo/2014/10/02/15/43/zebra-470305__480.png"
+        
+    },
+    {
+        "id": 8,
+        "alt": "Pirate",
+        "src": "https://cdn.pixabay.com/photo/2017/03/07/06/47/pirate-2123313__480.png"
+        
+    },
+    {
+        "id": 9,
+        "alt": "Animals",
+        "src": "https://cdn.pixabay.com/photo/2015/10/13/02/59/animals-985500__480.jpg7"
+        
+    },
+    {
+        "id": 10,
+        "alt": "Rat",
+        "src": "https://cdn.pixabay.com/photo/2013/07/12/17/39/rat-152162__480.png"
+        
+    },
+    {
+        "id": 11,
+        "alt": "Apple",
+        "src": "https://cdn.pixabay.com/photo/2016/06/23/18/55/apple-1475977__480.png"
+        
+    },    
+    {
+        "id": 12,
+        "alt": "Penguin Jr.",
+        "src": "https://cdn.pixabay.com/photo/2012/04/01/12/24/penguin-23159__480.png"
+    }
+
+    
+]

@@ -21,6 +21,7 @@ class App extends Component {
     }
 
     render() {
+        console.log("App.render()")
         return(
             <Wrapper>
                 <Header> Clicky Game </Header>

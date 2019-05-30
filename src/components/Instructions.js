@@ -9,3 +9,4 @@ function Instructions(props) {
 }
 
 
+export default Instructions;

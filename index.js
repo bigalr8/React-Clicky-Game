@@ -2,9 +2,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import "./index.css";
 
-
+//TO DO - Add stylesheet 
 
 //Call ReactDOM render method to "mount" an object into a DOM container. 
 //ReactDOM.render() is called with a React element. 

@@ -21,19 +21,26 @@ class App extends Component {
         topscore: 0
     }
 
+    clickSort = () => {
+        this.state.images.sort(() => Math.random() - 0.5);
+        this.setState({images});
+        return true;
+    }
+
     render() {
         console.log("App.render()")
         return(
             <Wrapper>
-                <Header> Clicky Game </Header>
+                <Header><div> Clicky Game</div> </Header>
                 <Instructions>Clicky Game!</Instructions>
                 {this.state.images.map(image => (
                     <Image
-                            id={image.id}
-                            key={image.id}
-                            alt={image.alt}
-                            src={image.src}
-                            />
+                        clickSort = {this.clickSort}
+                        id={image.id}
+                        key={image.id}
+                        alt={image.alt}
+                        src={image.src}
+                        />
                 ))}
             </Wrapper>
         );

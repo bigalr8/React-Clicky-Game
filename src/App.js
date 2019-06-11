@@ -31,8 +31,20 @@ class App extends Component {
         console.log("App.render()")
         return(
             <Wrapper>
-                <Header><div> Clicky Game</div> </Header>
-                <Instructions>Clicky Game!</Instructions>
+                
+                <Header
+                    game={"Clicky Game"}
+                    headinstr={"Click an image to begin!"}
+                    score = {this.state.score}
+                    topscore = {this.state.score}>
+                    <div> 
+                    <span>Clicky Game</span>
+                    <span>Click Image to Start</span> 
+                    <span>Score | High Score</span> 
+                    </div> 
+                </Header>
+
+                {/* <Instructions>Clicky Game!</Instructions> */}
                 {this.state.images.map(image => (
                     <Image
                         clickSort = {this.clickSort}

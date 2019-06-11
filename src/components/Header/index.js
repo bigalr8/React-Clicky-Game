@@ -5,7 +5,10 @@ import React from "react";
 import "./style.css";
 
 function Header(props) {
-    return <div className="header">{props.children}</div>;
+    return <div className="header">
+        <span className="game">{props.game}</span>
+        <span className="headinstr">{props.headinstr}</span> 
+        <span className="scores">Score: {props.score} | Top Score: {props.topscore}</span> 
+        </div>
 }
-
 export default Header;
